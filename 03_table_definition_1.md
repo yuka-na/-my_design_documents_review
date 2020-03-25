@@ -16,7 +16,8 @@
 - 退会ステータスはboolean型にする
 - l_name,f_nameのような略語を使用しない
 - 配送先住所は必要ない
-- menber_statusではなく[user_status]、もしくは[status]にする
+  > 配送先テーブルを新たにつくる
+- menber_statusではなく[is_active]みたいな命名にする
 
 ## Products
 - disc_idがいらない
